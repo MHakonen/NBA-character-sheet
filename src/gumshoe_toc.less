@@ -8,7 +8,7 @@
 @header_color: black;
 @header_size: 18px;
 @gold: #c8a800;
-@nba_red: #ab0e0e;
+@nba_red: #AA0707;
 
 
 @import (less) 'vendor/flexboxgrid.css';
@@ -28,7 +28,7 @@ fieldset {
 }
 
 .toc-box() {
-    border: double @nba_red;
+    border: solid @nba_red;
     //border-image-source: url('@{img_prefix}square.svg');
     border-image-slice: 70;
     border-image-width: 70px;
@@ -145,7 +145,7 @@ fieldset {
 
 /* font overrides */
     padding-top: 10px;
-                      background: url('@{img_prefix}bg2.jpg') repeat-y top left;
+    background: url('@{img_prefix}bg2.jpg') repeat-y top left;
     position: relative;
     .fontSerif();
 
@@ -176,6 +176,8 @@ fieldset {
     /* Specific sections */
 
     .sheet-vital {
+        margin-left: 0px;
+        margin-right: 0px;
         .sheet-names {
             .toc-box();
         }

@@ -15,7 +15,7 @@
             <div class="charsheet" id="root" style="padding-top:0px;">
                 <!--- BEGIN Character Sheet HTML --> 
                 <div class="sheet-toc">
-    <img class="sheet-eldersign" src="../img/eldersign.svg"/>
+    <!--<img class="sheet-eldersign" src="../img/eldersign.svg"/>-->
     <div class='sheet-flx-row sheet-vital'>
         <div class='sheet-flx-col-xs sheet-names'>
             <table>
@@ -35,10 +35,14 @@
                     <td>Drive</td>
                     <td><input type="text" name="attr_Drive"></td>
                 </tr>
+                <tr>
+                    <td>MOS</td>
+                    <td><input type="text" name="attr_MOS"></td>
+                </tr>
             </table>
         </div>
         <div class='sheet-flx-col-xs'>
-            <img class="sheet-logo" src="../img/toc-logo.png"/>
+            <img class="sheet-logo" src="../img/nba-logo.png"/>
         </div>
     </div>
 
@@ -65,17 +69,21 @@
                     </tr>
                     <tr>
                         <td colspan="2">
-                            <input type="checkbox" value="1" name="attr_hurt"> Hurt
+                            <input type="checkbox" value="2" name="attr_hurt"> Hurt
                         </td>
-                        <td colspan="3">
+                        <td class="align-right" colspan="4">
                             <input type="checkbox" value="1" name="attr_seriouslywounded"> Seriously Wounded
                         </td>
                     </tr>
-                    <tr>
-                        <td colspan="3">Hit Threshold:</td>
-                        <td colspan="2">
-                            <input type="number" min="0" max="100" class="sheet-secondary-attr-input" name="attr_hit_threshold">
-                        </td>
+                    </table>
+                    <h4 class="sheet-section-head">Hit Threshold</h4>
+                    <table>
+                        <tr>
+                            <td colspan="2">No Cover: -1</td>
+                            <td colspan="2">
+                                <input type="number" min="0" max="100" class="sheet-secondary-attr-input" name="attr_hit_threshold">
+                            </td>
+                            <td class="align-right" colspan="2">Full Cover: +1</td>
                         </tr>
                     </table>
                 </div>
