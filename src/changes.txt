@@ -1,0 +1,57 @@
+TODO:
+
+REMOVE Occupational Benefits
+REMOVE Sanity
+REMOVE Pillars of Sanity
+REMOVE Mythos Tomes, Spells, and Artefacts
+
+
+CHANGE Equipment -> Tools of the Trade
+CHANGE Stability: Mind-Blasted checkbox -> Shattered
+
+
+ADD Experience Points
+ADD General Ability Cherries
+ADD MOS
+ADD Tag-Team Benefits
+ADD Proficiencies:
+	Driving Licenses
+	Piloting Licenses
+	Weapons Training
+	Untouchable Forgeries
+	Languages
+
+
+PARTIALLY IMPLEMENTED:
+
+
+DONE:
+
+
+
+ADD Cover (Identities)
+
+CHANGE Known Contacts -> Network (Contacts)
+CHANGE ToC Abilities -> NBA Abilities
+
+
+Stability:
+	- Shaken, Mind Blasted
+	+ Shaken (0 - -5)
+	+ Shattered (-6 - -11)
+
+Health:
+	- Hurt, Seriously Wounded
+	+ Hurt (0-5)
+	+ Seriously Wounded (-6 - -11)
+
+Sources of Stability:
+	+ Symbol:
+	+ Solace:
+	+ Safety:
+
+Hit Threshold
+	+ Exposed -1
+	+ Full Cover +1
+
+
