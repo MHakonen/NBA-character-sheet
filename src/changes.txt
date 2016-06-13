@@ -2,37 +2,48 @@ TODO:
 
 REMOVE Occupational Benefits
 REMOVE Sanity
-REMOVE Pillars of Sanity
 REMOVE Mythos Tomes, Spells, and Artefacts
 
-
 CHANGE Equipment -> Tools of the Trade
-CHANGE Stability: Mind-Blasted checkbox -> Shattered
+CHANGE Health & Stability boxes to span two cols
 
 
 ADD Experience Points
-ADD General Ability Cherries
-ADD MOS
-ADD Tag-Team Benefits
+
+
+PARTIALLY IMPLEMENTED:
+
+
+
+DONE:
+----
+
+ADD Cover (Identities)
 ADD Proficiencies:
 	Driving Licenses
 	Piloting Licenses
 	Weapons Training
 	Untouchable Forgeries
 	Languages
-
-
-PARTIALLY IMPLEMENTED:
-
-
-DONE:
-
-
-
-ADD Cover (Identities)
+	Tag-Team Tactical Benefits
+ADD MOS
+ADD Cherries
 
 CHANGE Known Contacts -> Network (Contacts)
 CHANGE ToC Abilities -> NBA Abilities
+CHANGE Stability: Mind-Blasted checkbox -> Shattered
+
+REMOVE Pillars of Sanity
+
+
+
+
+
+
+
+
+
+
 
 
 Stability:
