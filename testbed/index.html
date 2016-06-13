@@ -120,7 +120,7 @@
                                 <input type="checkbox" value="1" name="attr_shaken"> Shaken
                             </td>
                             <td colspan="4">
-                                <input type="checkbox" value="1" name="attr_mindblasted"> Mind Blasted
+                                <input type="checkbox" value="1" name="attr_shattered"> Shattered
                             </td>
                         </tr>
                     </table>
@@ -347,18 +347,6 @@
                             <td><button type='roll' value='!roll tradecraft ?{Points to spend|0}' name='roll_tradecraft' ></button></td>
                         </tr>
                     </table>
-                    <div class="sheet-flx-table">
-                        <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-top sheet-flx-brd-bottom">
-                            <div class="sheet-flx-col-xs-12 sheet-flx-hdr sheet-flx-brd">Languages</div>
-                        </div>
-                        <fieldset class="repeating_languages">
-                            <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-bottom sheet-flx-data">
-                                <div class="sheet-flx-col-xs-12">
-                                    <input type="text" name="attr_name" />
-                                </div>
-                            </div>
-                        </fieldset>
-                    </div>
                     <div class="sheet-flx-table">
                         <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-top sheet-flx-brd-bottom">
                             <div class="sheet-flx-col-xs-12 sheet-flx-hdr sheet-flx-brd">Dedicated Pools<span class="sheet-small">(Spent/Current/Max)</span></div>
@@ -688,7 +676,6 @@
                 </div>
             </div>
         </div>
-
         <div class='sheet-flx-row'>
             <div class='sheet-flx-col-xs'>
                 <div class="sheet-section">
@@ -711,15 +698,97 @@
             </div>
             <div class='sheet-flx-col-xs'>
                 <div class="sheet-section">
-                    <h4 class="sheet-section-head">Pillars of Sanity</h4>
-                    <ol>
-                        <fieldset class="repeating_pillars">
-                            <li><input class="" type="text" name="attr_pillar" placeholder="a pillar of sanity" /></li>
-                        </fieldset>
-                    </ol>
+                    <h4 class="sheet-section-head">General Ability Cherries</h4>
+                    <fieldset class="repeating_pillars">
+                        <textarea name="attr_cherries"></textarea>
+                    </fieldset>
                 </div>
             </div>
         </div>
+        <div class='sheet-section sheet-abilities'>
+            <h4 class="sheet-section-head">Proficiencies and Special Training</h4>
+            <div class="sheet-flx-row">
+                <div class='sheet-flx-col-xs'>
+                    <div class="sheet-flx-table">
+                        <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-top sheet-flx-brd-bottom">
+                            <div class="sheet-flx-col-xs-12 sheet-flx-hdr sheet-flx-brd">Languages</div>
+                        </div>
+                        <fieldset class="repeating_languages">
+                            <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-bottom sheet-flx-data">
+                                <div class="sheet-flx-col-xs-12">
+                                    <input type="text" name="attr_name" />
+                                </div>
+                            </div>
+                        </fieldset>                       
+                     </div>
+                     <div class="sheet-flx-table">
+                        <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-top sheet-flx-brd-bottom">
+                            <div class="sheet-flx-col-xs-12 sheet-flx-hdr sheet-flx-brd">Bulletproof Forgeries</div>
+                        </div>
+                        <fieldset class="repeating_bulletproof_forgeries">
+                            <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-bottom sheet-flx-data">
+                                <div class="sheet-flx-col-xs-12">
+                                    <input type="text" name="attr_name" />
+                                </div>
+                            </div>
+                        </fieldset>                       
+                     </div>
+                </div>
+                <div class='sheet-flx-col-xs'>
+                    <div class="sheet-flx-table">
+                        <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-top sheet-flx-brd-bottom">
+                            <div class="sheet-flx-col-xs-12 sheet-flx-hdr sheet-flx-brd">Driving Licenses</div>
+                        </div>
+                        <fieldset class="repeating_driving_licenses">
+                            <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-bottom sheet-flx-data">
+                                <div class="sheet-flx-col-xs-12">
+                                    <input type="text" name="attr_name" />
+                                </div>
+                            </div>
+                        </fieldset>                       
+                     </div>
+                     <div class="sheet-flx-table">
+                        <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-top sheet-flx-brd-bottom">
+                            <div class="sheet-flx-col-xs-12 sheet-flx-hdr sheet-flx-brd">Tag-Team Tactical Benefits</div>
+                        </div>
+                        <fieldset class="repeating_tttb">
+                            <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-bottom sheet-flx-data">
+                                <div class="sheet-flx-col-xs-12">
+                                    <input type="text" name="attr_name" />
+                                </div>
+                            </div>
+                        </fieldset>                       
+                     </div>
+                </div>
+                <div class='sheet-flx-col-xs'>
+                    <div class="sheet-flx-table">
+                        <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-top sheet-flx-brd-bottom">
+                            <div class="sheet-flx-col-xs-12 sheet-flx-hdr sheet-flx-brd">Pilot Licenses</div>
+                        </div>
+                        <fieldset class="repeating_pilot_licenses">
+                            <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-bottom sheet-flx-data">
+                                <div class="sheet-flx-col-xs-12">
+                                    <input type="text" name="attr_name" />
+                                </div>
+                            </div>
+                        </fieldset>                       
+                     </div>
+                     <div class="sheet-flx-table">
+                        <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-top sheet-flx-brd-bottom">
+                            <div class="sheet-flx-col-xs-12 sheet-flx-hdr sheet-flx-brd">Special Weapons Training</div>
+                        </div>
+                        <fieldset class="repeating_weapons_training">
+                            <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-bottom sheet-flx-data">
+                                <div class="sheet-flx-col-xs-12">
+                                    <input type="text" name="attr_name" />
+                                </div>
+                            </div>
+                        </fieldset>                       
+                     </div>
+                </div>
+            </div>
+        </div>
+        
         <div class='sheet-section sheet-weapons'>
             <h4 class="sheet-section-head">Weapons and Explosives</h4>
             <div class="sheet-flx-row">
@@ -868,29 +937,7 @@
                 </div>
             </div>
         </div>
-        <div class='sheet-section sheet-tomes'>
-            <h4 class="sheet-section-head">Mthos Tomes, Spells, and Artefacts</h4>
-            <div class="sheet-flx-row">
-                <div class='sheet-flx-col-xs'>
-                    <div class="sheet-flx-table">
-                        <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-top sheet-flx-brd-bottom">
-                            <div class="sheet-flx-col-xs-6 sheet-flx-hdr sheet-flx-brd sheet-flx-brd-right">Item</div>
-                            <div class="sheet-flx-col-xs-6 sheet-flx-hdr">Notes</div>
-                        </div>
-                        <fieldset class="repeating_tomes">
-                            <div class="sheet-flx-row sheet-flx-brd sheet-flx-brd-bottom sheet-flx-data">
-                                <div class="sheet-flx-col-xs-6 sheet-flx-brd sheet-flx-brd-right">
-                                    <input class="" type="text" name="attr_tome-item" />
-                                </div>
-                                <div class="sheet-flx-col-xs-6">
-                                    <input class="" type="text" name="attr_tome-notes" />
-                                </div>
-                            </div>
-                        </fieldset>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <p class="sheet-aligncenter sheet-small">Character Sheet by Mika Hakonen - not affiliated with Pelgrane Press Ltd.</p>
         <p class="sheet-aligncenter sheet-small">Based on Trail of Cthulhu character sheet design by <a href="http://caseylink.com/roll20">Casey Link</a></p>
         <p class="sheet-aligncenter sheet-small">
